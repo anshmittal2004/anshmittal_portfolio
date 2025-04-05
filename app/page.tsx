@@ -446,7 +446,7 @@ export default function Home() {
               <div className="mt-8 pt-8 border-t flex flex-col sm:flex-row justify-between gap-4">
                 <div className="flex items-center gap-2">
                   <Mail className="h-5 w-5 text-primary" />
-                  <a href="mailto:ans7@example.com" className="hover:text-primary">
+                  <a href="mailto:anshmittal397@example.com" className="hover:text-primary">
                     anshmittal397@gmail.com
                   </a>
                 </div>
