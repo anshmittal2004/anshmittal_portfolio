@@ -447,7 +447,7 @@ export default function Home() {
                 <div className="flex items-center gap-2">
                   <Mail className="h-5 w-5 text-primary" />
                   <a href="mailto:ans7@example.com" className="hover:text-primary">
-                    anshmittal397@example.com
+                    anshmittal397@gmail.com
                   </a>
                 </div>
                 <div className="flex gap-4">
