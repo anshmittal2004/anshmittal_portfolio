@@ -392,7 +392,7 @@ export default function Home() {
         </div>
       </section>
 
-       {/* Contact Section */}
+      {/* Contact Section */}
        <section id="contact" className="py-16 sm:py-20 bg-muted/50">
         <div className="container max-w-4xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold mb-12 text-center">
@@ -427,7 +427,6 @@ export default function Home() {
           </Card>
         </div>
       </section>
-
       {/* Footer */}
       <footer className="py-8 border-t">
         <div className="container">
