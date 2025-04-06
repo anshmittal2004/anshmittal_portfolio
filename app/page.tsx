@@ -10,6 +10,7 @@ import ProjectCard from "@/components/project-card";
 import SkillBadge from "@/components/skill-badge";
 import ParallaxHero from "@/components/parallax-hero";
 import MagneticButton from "@/components/magnetic-button";
+import { ContactForm } from "@/components/ContactForm";
 
 export default function Home() {
   const [currentSkill, setCurrentSkill] = useState(0);
@@ -391,62 +392,21 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="py-20 bg-muted/50">
-        <div className="container max-w-4xl">
-          <h2 className="text-3xl font-bold mb-12 text-center"><MagneticButton className="text-3xl font-bold px-8 py-6">Get In Touch</MagneticButton></h2>
+       {/* Contact Section */}
+       <section id="contact" className="py-16 sm:py-20 bg-muted/50">
+        <div className="container max-w-4xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-12 text-center">
+            <MagneticButton className="text-2xl sm:text-3xl font-bold px-6 sm:px-8 py-4 sm:py-6">
+              Get In Touch
+            </MagneticButton>
+          </h2>
           <Card>
-            <CardContent className="p-8">
-              <form className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="space-y-2">
-                    <label htmlFor="name" className="text-sm font-medium">
-                      Name
-                    </label>
-                    <input
-                      id="name"
-                      className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                      placeholder="Your name"
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <label htmlFor="email" className="text-sm font-medium">
-                      Email
-                    </label>
-                    <input
-                      id="email"
-                      type="email"
-                      className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                      placeholder="Your email"
-                    />
-                  </div>
-                </div>
-                <div className="space-y-2">
-                  <label htmlFor="subject" className="text-sm font-medium">
-                    Subject
-                  </label>
-                  <input
-                    id="subject"
-                    className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    placeholder="Subject of your message"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <label htmlFor="message" className="text-sm font-medium">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    className="flex min-h-[120px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    placeholder="Your message"
-                  />
-                </div>
-                <MagneticButton className="w-full">Send Message</MagneticButton>
-              </form>
+            <CardContent className="p-4 sm:p-8">
+              <ContactForm /> {/* Using the updated ContactForm component */}
               <div className="mt-8 pt-8 border-t flex flex-col sm:flex-row justify-between gap-4">
                 <div className="flex items-center gap-2">
                   <Mail className="h-5 w-5 text-primary" />
-                  <a href="mailto:anshmittal397@example.com" className="hover:text-primary">
+                  <a href="mailto:anshmittal397@gmail.com" className="hover:text-primary text-sm sm:text-base">
                     anshmittal397@gmail.com
                   </a>
                 </div>
