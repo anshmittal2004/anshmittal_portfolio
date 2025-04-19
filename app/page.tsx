@@ -329,6 +329,14 @@ export default function Home() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
+              title="Vaultify-2025"
+              description="Real-time cryptocurrency dashboard featuring live price tracking, interactive charts, and news aggregation with portfolio management capabilities, optimized for 100+ cryptocurrencies and 5,000+ concurrent users."
+tags={['React.js', 'Chart.js', 'TailwindCSS', 'Redux', 'Firebase']}
+              imageUrl={projectImages.credit_card}
+              demoUrl="https://vaultify-2025.vercel.app/"
+              repoUrl="https://github.com/anshmittal2004/Vaultify-2025"
+            />
+            <ProjectCard
               title="Credit Card Fraud Detection"
               description="ML model detecting fraudulent transactions with 95% accuracy, reducing false positives by 40% and processing 10,000+ transactions/sec."
               tags={['Python', 'Scikit-Learn', 'Random Forest', 'Streamlit']}
