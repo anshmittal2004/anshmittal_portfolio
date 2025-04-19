@@ -332,7 +332,7 @@ export default function Home() {
               title="Vaultify-2025"
               description="Real-time cryptocurrency dashboard featuring live price tracking, interactive charts, and news aggregation with portfolio management capabilities, optimized for 100+ cryptocurrencies and 5,000+ concurrent users."
 tags={['React.js', 'Chart.js', 'TailwindCSS', 'Redux', 'Firebase']}
-              imageUrl={projectImages.credit_card}
+              imageUrl={projectImages.crypto}
               demoUrl="https://vaultify-2025.vercel.app/"
               repoUrl="https://github.com/anshmittal2004/Vaultify-2025"
             />
@@ -341,7 +341,6 @@ tags={['React.js', 'Chart.js', 'TailwindCSS', 'Redux', 'Firebase']}
               description="ML model detecting fraudulent transactions with 95% accuracy, reducing false positives by 40% and processing 10,000+ transactions/sec."
               tags={['Python', 'Scikit-Learn', 'Random Forest', 'Streamlit']}
               imageUrl={projectImages.credit_card}
-              demoUrl="#"
               repoUrl="https://github.com/anshmittal2004/Credit-Card-Fraud-Detection"
             />
             <ProjectCard
@@ -349,7 +348,6 @@ tags={['React.js', 'Chart.js', 'TailwindCSS', 'Redux', 'Firebase']}
               description="NLP-powered system reducing manual effort by 60% with 45% better accuracy in candidate shortlisting."
               tags={['Python', 'Flask', 'SpaCy', 'NLP']}
               imageUrl={projectImages.resume}
-              demoUrl="#"
               repoUrl="https://github.com/anshmittal2004/Resume-Screening-System-Project"
             />
             <ProjectCard
@@ -357,7 +355,6 @@ tags={['React.js', 'Chart.js', 'TailwindCSS', 'Redux', 'Firebase']}
               description="Predictive tool with 85% accuracy forecasting student placements, increasing interview rates by 30%."
               tags={['Python', 'Machine Learning', 'Scikit-Learn', 'Pandas']}
               imageUrl={projectImages.placement}
-              demoUrl="#"
               repoUrl="https://github.com/anshmittal2004/Placement-Prediction-System"
             />
             <ProjectCard
@@ -379,7 +376,6 @@ tags={['React.js', 'Chart.js', 'TailwindCSS', 'Redux', 'Firebase']}
               description="The unhygienic and nasty areas are increasing due to the overflow of garbage in public areas. To maintain cleanliness we made IOT-based garbage Monitoring System that will tell us whether the trash can is empty or full through the web server and you can know the status of your ‘Trash Can’ or 'Dumpsters'."
               tags={['C++', 'Arduino']}
               imageUrl={projectImages.bin}
-              demoUrl="#"
               repoUrl="https://github.com/anshmittal2004/IOT-Smart-Garbage-Monitoring-System"
             />
           </div>
