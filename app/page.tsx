@@ -332,7 +332,7 @@ export default function Home() {
               title="Vaultify-2025"
               description="Real-time cryptocurrency dashboard featuring live price tracking, interactive charts, and news aggregation with portfolio management capabilities, optimized for 100+ cryptocurrencies and 5,000+ concurrent users."
 tags={['React.js', 'Chart.js', 'TailwindCSS', 'Redux', 'Firebase']}
-              imageUrl={projectImages.cryptomy}
+              imageUrl={projectImages.vaultify}
               demoUrl="https://vaultify-2025.vercel.app/"
               repoUrl="https://github.com/anshmittal2004/Vaultify-2025"
             />
