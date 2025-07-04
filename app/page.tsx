@@ -143,7 +143,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg mb-4">
-                I'm a 3rd year BTech CSE student at Graphic Era University with a passion for building technology that makes a difference. My journey in tech is driven by the belief that code can solve real-world problems and create positive societal impact.
+                I'm a Final year[4th year] BTech CSE student at Graphic Era University with a passion for building technology that makes a difference. My journey in tech is driven by the belief that code can solve real-world problems and create positive societal impact.
               </p>
               <p className="text-lg mb-4">
                 As a full-stack developer and AI enthusiast, I specialize in creating intelligent systems that combine robust backend architecture with intuitive interfaces. My projects focus on practical solutions, from financial fraud prevention to bridging communication gaps for the hearing impaired.
